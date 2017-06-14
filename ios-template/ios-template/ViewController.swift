@@ -36,6 +36,10 @@ class ViewController: UIViewController, WKUIDelegate, UIScrollViewDelegate {
     }
   }
 
+  override var prefersStatusBarHidden: Bool {
+    return true
+  }
+
   override func viewDidLoad() {
     super.viewDidLoad()
 
