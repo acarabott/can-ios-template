@@ -9,7 +9,7 @@
 import UIKit
 import WebKit
 
-class ViewController: UIViewController, WKUIDelegate {
+class ViewController: UIViewController, WKUIDelegate, UIScrollViewDelegate {
 
   var webView: WKWebView!
 
@@ -19,7 +19,12 @@ class ViewController: UIViewController, WKUIDelegate {
 
     webView = WKWebView(frame: .zero, configuration: webConfiguration)
     webView.uiDelegate = self
+    webView.scrollView.delegate = self
     view = webView
+  }
+
+  func viewForZooming(in scrollView: UIScrollView) -> UIView? {
+    return nil
   }
 
   override func viewDidLoad() {
@@ -34,4 +39,3 @@ class ViewController: UIViewController, WKUIDelegate {
     super.didReceiveMemoryWarning()
   }
 }
-
