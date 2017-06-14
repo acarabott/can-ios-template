@@ -27,6 +27,15 @@ class ViewController: UIViewController, WKUIDelegate, UIScrollViewDelegate {
     return nil
   }
 
+  func scrollViewDidScroll(_ scrollView: UIScrollView) {
+    if scrollView.contentOffset.x != 0 {
+      scrollView.contentOffset.x = 0
+    }
+    if scrollView.contentOffset.y != 0 {
+      scrollView.contentOffset.y = 0
+    }
+  }
+
   override func viewDidLoad() {
     super.viewDidLoad()
 
