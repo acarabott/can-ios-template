@@ -16,7 +16,7 @@ class ViewController: UIViewController, WKUIDelegate, UIScrollViewDelegate {
   override func loadView() {
     let webConfiguration = WKWebViewConfiguration()
     webConfiguration.preferences.javaScriptEnabled = true
-
+    webConfiguration.allowsInlineMediaPlayback = true;
     webView = WKWebView(frame: .zero, configuration: webConfiguration)
     webView.uiDelegate = self
     webView.scrollView.delegate = self
@@ -43,7 +43,7 @@ class ViewController: UIViewController, WKUIDelegate, UIScrollViewDelegate {
   override func viewDidLoad() {
     super.viewDidLoad()
 
-    let myURL = URL(string: "http://ac.local:8080/")
+    let myURL = URL(string: "http://ac.local:5000/")
     let myRequest = URLRequest(url: myURL!)
     webView.load(myRequest)
   }

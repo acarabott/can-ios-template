@@ -304,6 +304,7 @@
 				4053A5A41EF1E76B003437E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
