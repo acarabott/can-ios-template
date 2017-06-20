@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4053A5901EF1E76B003437E6 /* ios-template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-template.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4053A5901EF1E76B003437E6 /* Change a Number.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Change a Number.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4053A5931EF1E76B003437E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4053A5951EF1E76B003437E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4053A5981EF1E76B003437E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		4053A5911EF1E76B003437E6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4053A5901EF1E76B003437E6 /* ios-template.app */,
+				4053A5901EF1E76B003437E6 /* Change a Number.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,9 +67,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4053A58F1EF1E76B003437E6 /* ios-template */ = {
+		4053A58F1EF1E76B003437E6 /* Change a Number */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4053A5A21EF1E76B003437E6 /* Build configuration list for PBXNativeTarget "ios-template" */;
+			buildConfigurationList = 4053A5A21EF1E76B003437E6 /* Build configuration list for PBXNativeTarget "Change a Number" */;
 			buildPhases = (
 				4053A58C1EF1E76B003437E6 /* Sources */,
 				4053A58D1EF1E76B003437E6 /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = "ios-template";
+			name = "Change a Number";
 			productName = "ios-template";
-			productReference = 4053A5901EF1E76B003437E6 /* ios-template.app */;
+			productReference = 4053A5901EF1E76B003437E6 /* Change a Number.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +101,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4053A58B1EF1E76B003437E6 /* Build configuration list for PBXProject "ios-template" */;
+			buildConfigurationList = 4053A58B1EF1E76B003437E6 /* Build configuration list for PBXProject "Change a Number" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -114,7 +114,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4053A58F1EF1E76B003437E6 /* ios-template */,
+				4053A58F1EF1E76B003437E6 /* Change a Number */,
 			);
 		};
 /* End PBXProject section */
@@ -288,7 +288,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4053A58B1EF1E76B003437E6 /* Build configuration list for PBXProject "ios-template" */ = {
+		4053A58B1EF1E76B003437E6 /* Build configuration list for PBXProject "Change a Number" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4053A5A01EF1E76B003437E6 /* Debug */,
@@ -297,7 +297,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4053A5A21EF1E76B003437E6 /* Build configuration list for PBXNativeTarget "ios-template" */ = {
+		4053A5A21EF1E76B003437E6 /* Build configuration list for PBXNativeTarget "Change a Number" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4053A5A31EF1E76B003437E6 /* Debug */,

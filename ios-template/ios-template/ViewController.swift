@@ -43,7 +43,7 @@ class ViewController: UIViewController, WKUIDelegate, UIScrollViewDelegate {
   override func viewDidLoad() {
     super.viewDidLoad()
 
-    let myURL = URL(string: "http://ac.local:5000/")
+    let myURL = URL(string: "http://pi3.local:5000/")
     let myRequest = URLRequest(url: myURL!)
     webView.load(myRequest)
   }
